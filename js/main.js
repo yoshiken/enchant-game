@@ -27,7 +27,7 @@ window.onload = function() {
         game.keybind(32, 'a');
 
         sprite.addEventListener("enterframe", function() {
-            exist = 0;
+          exist = 0;
             if (game.input.a) {
                 var shikaku = new Sprite(100, 10);
                 shikaku.frame = 0;
@@ -65,7 +65,7 @@ window.onload = function() {
 
             if (exist == 1) {
                 console.log(shikaku.x);
-            }
+          }
 
         });
     }
